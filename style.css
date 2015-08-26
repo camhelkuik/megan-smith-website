@@ -10,6 +10,7 @@ body {
   background-color: #DCD0B8;
   border-top: solid 5px #3D2F2C;
   border-bottom: solid 5px #3D2F2C;
+  margin: 8px 0 8px 0;
 }
 
 .arrow-down {
@@ -89,7 +90,7 @@ a{
   width: 0px;
   height: 0px;
   position: absolute;
-  left: 54px;
+  left: 48px;
   top: 164px;
   border-top: 10px solid transparent;
   border-bottom: 0px solid transparent;
@@ -100,7 +101,7 @@ a{
   width: 0px;
   height: 0px;
   position: absolute;
-  right: 54px;
+  right: 48px;
   top: 164px;
   border-top: 10px solid transparent;
   border-bottom: 0px solid transparent;
