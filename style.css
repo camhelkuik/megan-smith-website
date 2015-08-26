@@ -8,13 +8,21 @@ html {
 body {
   background-image: url("");
   background-color: #DCD0B8;
+  border-top: solid 5px #3D2F2C;
+  border-bottom: solid 5px #3D2F2C;
 }
 
-.top-img {
-    position: relative;
-    top: -34px;
-    width: 100%;
-  }
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #3D2F2C;
+  position: relative;
+  top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .main-content{
   width: 80%;
@@ -67,72 +75,83 @@ a{
 
 .about--pic {
   float: left;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .corner-left {
-    width: 0px;
-    height: 0px;
-    position: absolute;
-    left: 54px;
-    top: 131px;
-    border-top: 10px solid transparent;
-    border-bottom: 0px solid transparent;
-    border-right: 10px solid #3D2F2C;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  left: 54px;
+  top: 164px;
+  border-top: 10px solid transparent;
+  border-bottom: 0px solid transparent;
+  border-right: 10px solid #3D2F2C;
 }
 
 .corner-right {
-    width: 0px;
-    height: 0px;
-    position: absolute;
-    right: 54px;
-    top: 131px;
-    border-top: 10px solid transparent;
-    border-bottom: 0px solid transparent;
-    border-left: 10px solid #3D2F2C;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  right: 54px;
+  top: 164px;
+  border-top: 10px solid transparent;
+  border-bottom: 0px solid transparent;
+  border-left: 10px solid #3D2F2C;
 }
 
 footer{
   background-color: #707D69;
   width: 80%;
-  margin-left: auto;
-  margin-right: auto;
   position: relative;
-  margin-top: -26px;
   padding: 1px 0px 1px 0px;
+  margin: -26px auto 20px auto;
 }
 
 footer li {
   color: white;
-    margin: auto 5px auto 5px;
-      display: inline-block;
+  margin: auto 5px auto 5px;
+  display: inline-block;
 }
 
 .footer-left {
-    width: 0px;
-    height: 0px;
-    position: absolute;
-    left: 0px;
-    top: -10px;
-    border-top: 10px solid transparent;
-    border-bottom: 0px solid transparent;
-    border-right: 10px solid #3D2F2C;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  left: 0px;
+  top: -10px;
+  border-top: 10px solid transparent;
+  border-bottom: 0px solid transparent;
+  border-right: 10px solid #3D2F2C;
 }
 
 .footer-right {
-    width: 0px;
-    height: 0px;
-    position: absolute;
-    right: 0px;
-    top: -10px;
-    border-top: 10px solid transparent;
-    border-bottom: 0px solid transparent;
-    border-left: 10px solid #3D2F2C;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  right: 0px;
+  top: -10px;
+  border-top: 10px solid transparent;
+  border-bottom: 0px solid transparent;
+  border-left: 10px solid #3D2F2C;
 }
+
+.arrow-up {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid #3D2F2C;
+  position: relative;
+  top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*Sliding images*/
 
 .jumbotron{
