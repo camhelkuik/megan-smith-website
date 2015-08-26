@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  background-image: url("assets/megan-bg.png");
+  background-image: url("");
 }
 
 .main-content{
@@ -24,6 +24,10 @@ body {
 
 a{
   text-decoration: none;
+}
+
+h1, p{
+  font-family: 'Cardo', serif;
 }
 
 .nav--sub{
