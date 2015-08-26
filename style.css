@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  background-image: url("");
+  background-image: url("assets/light-grey-floral-motif.png");
   background-color: #DCD0B8;
   border-top: solid 5px #3D2F2C;
   border-bottom: solid 5px #3D2F2C;
@@ -34,7 +34,10 @@ body {
 .title {
   background-color: #DCD0B8;
   font-family: 'Cardo', serif;
-  padding: 0px 10px 10px 13px;  
+  padding: 0px 10px 10px 13px;
+  width: 94%;
+  margin-left: auto;
+  margin-right: auto;  
 }
 
 .nav {
@@ -67,7 +70,7 @@ a{
 .content-div, .about, .client, .contact, .experience, .presentations, .specializations{
   background-color: #DCD0B8;
   font-family: 'Cardo', serif;
-  padding: 1px 10px 10px 13px;
+  padding: 1px 10px 10px 10px;
   margin-top: 25px;
   border: solid 15px #3D2F2C;
   border-style: double;
@@ -110,6 +113,10 @@ footer{
   position: relative;
   padding: 1px 0px 1px 0px;
   margin: -26px auto 20px auto;
+}
+
+footer ul {
+  padding-left: 10px;
 }
 
 footer li {
