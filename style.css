@@ -4,3 +4,40 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+body {
+  background-image: url("assets/megan-bg.png");
+}
+
+.main-content{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav {
+  list-style-type: none;
+  display: inline-block;
+  background-color: #92B2A9;
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+.nav--sub{
+  list-style-type: none;
+  display: inline-block;
+}
+
+.nav li{
+  float: left;
+  margin: 0 5px 0 5px;
+}
+
+.content-div, .title{
+  background-color: #FFEFEA;
+}
+
+
