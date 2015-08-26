@@ -20,15 +20,14 @@ body {
 .title {
   background-color: #DCD0B8;
   font-family: 'Cardo', serif;
-  padding: 0px 10px 10px 13px;
-/*  border: solid 3px #3D2F2C;*/
-  
+  padding: 0px 10px 10px 13px;  
 }
 
 .nav {
   list-style-type: none;
   display: inline-block;
   background-color: #707D69;
+  float: left;
   width: 100%;
 }
 
@@ -69,6 +68,27 @@ a{
     margin-bottom: 10px;
 }
 
+.corner-left {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 54px;
+    top: 131px;
+    border-top: 10px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-right: 10px solid #3D2F2C;
+}
+
+.corner-right {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    right: 54px;
+    top: 131px;
+    border-top: 10px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-left: 10px solid #3D2F2C;
+}
 
 /*Sliding images*/
 
