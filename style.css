@@ -34,8 +34,8 @@ body {
 
 .title {
   background-color: #DCD0B8;
-  font-family: 'Cardo', serif;
-  padding: 0px 10px 10px 13px;
+  font-family: 'Raleway', sans-serif;
+  padding: 0px 10px 1px 13px;
   width: 94%;
   margin-left: auto;
   margin-right: auto;  
@@ -68,9 +68,14 @@ a{
   margin: 5px 5px 5px 5px;
 }
 
+.couch {
+  margin-top: 10px;
+  margin-bottom: -11px;
+}
+
 .content-div, .about, .client, .contact, .experience, .presentations, .specializations{
   background-color: #DCD0B8;
-  font-family: 'Cardo', serif;
+  font-family: 'Raleway', sans-serif;
   padding: 1px 10px 10px 10px;
   margin-top: 25px;
   border: solid 15px #3D2F2C;
@@ -91,7 +96,7 @@ a{
   height: 0px;
   position: absolute;
   left: 48px;
-  top: 164px;
+  top: 141px;
   border-top: 10px solid transparent;
   border-bottom: 0px solid transparent;
   border-right: 10px solid #3D2F2C;
@@ -102,7 +107,7 @@ a{
   height: 0px;
   position: absolute;
   right: 48px;
-  top: 164px;
+  top: 141px;
   border-top: 10px solid transparent;
   border-bottom: 0px solid transparent;
   border-left: 10px solid #3D2F2C;
