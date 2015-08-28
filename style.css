@@ -59,6 +59,10 @@ body {
   background-color: #587D2E;
   float: left;
   width: 100%;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  padding-top: 11px;
+  padding-bottom: 11px;
 }
 
 a{
@@ -66,18 +70,18 @@ a{
   color: white;
 }
 
-.nav--sub{
-  list-style-type: none;
-  display: inline-block;
+/*.nav--sub{
+list-style-type: none;
+display: inline-block;
 }
 
 .nav ul {
-  list-style-type: none;
-}
+list-style-type: none;
+}*/
 
 .nav li{
-  float: left;
-  margin: 5px 5px 5px 5px;
+  display: inline;
+  margin: auto 5px auto 5px;
 }
 
 .couch {
@@ -107,8 +111,8 @@ a{
   width: 0px;
   height: 0px;
   position: absolute;
-  left: 48px;
-  top: 148px;
+  left: 51px;
+  top: 150px;
   border-top: 10px solid transparent;
   border-bottom: 0px solid transparent;
   border-right: 10px solid #3D2F2C;
@@ -118,8 +122,8 @@ a{
   width: 0px;
   height: 0px;
   position: absolute;
-  right: 48px;
-  top: 148px;
+  right: 51px;
+  top: 150px;
   border-top: 10px solid transparent;
   border-bottom: 0px solid transparent;
   border-left: 10px solid #3D2F2C;
@@ -129,13 +133,15 @@ footer{
   background-color: #587D2E;
   width: 80%;
   position: relative;
-  padding: 1px 0px 1px 0px;
+  padding: 10px 0px 10px 0px;
   margin: -26px auto 20px auto;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
 }
 
-footer ul {
+/*footer ul {
   padding-left: 10px;
-}
+}*/
 
 footer li {
   color: white;
