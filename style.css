@@ -110,23 +110,25 @@ list-style-type: none;
 .corner-left {
   width: 0px;
   height: 0px;
-  position: absolute;
-  left: 51px;
-  top: 150px;
+  position: relative;
+  right: 377px;
+  top: -12px;
   border-top: 10px solid transparent;
   border-bottom: 0px solid transparent;
   border-right: 10px solid #3D2F2C;
+  z-index: -1;
 }
 
 .corner-right {
   width: 0px;
   height: 0px;
-  position: absolute;
-  right: 51px;
-  top: 150px;
+  position: relative;
+  right: -3px;
+  top: -12px;
   border-top: 10px solid transparent;
   border-bottom: 0px solid transparent;
   border-left: 10px solid #3D2F2C;
+  z-index: -1;
 }
 
 footer{
@@ -233,5 +235,7 @@ img.show{
   border-bottom-right-radius: 3px;
 }
 
-
+@media (min-width: 475px){
+  
+}
 
