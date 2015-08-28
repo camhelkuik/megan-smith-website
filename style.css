@@ -109,6 +109,9 @@ list-style-type: none;
 
 .about p , .content-div p, .client p, .client li{
   text-align: left;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*.corner-left {
@@ -144,10 +147,6 @@ footer{
   font-family: 'Raleway', sans-serif;
   text-align: center;
 }
-
-/*footer ul {
-  padding-left: 10px;
-}*/
 
 footer li {
   color: white;
@@ -271,10 +270,8 @@ img.show{
   
   .couch {
       width: 80%;
-  }
-  
-  .contact {
-      text-align: center;
+      margin-bottom: 10px;
+      margin-top: 15px;
   }
   
   .content-div, .about, .client, .contact, .experience, .presentations, .specializations {
