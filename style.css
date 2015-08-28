@@ -43,9 +43,9 @@ body {
   width: 94%;
   margin-left: auto;
   margin-right: auto;
-  border-top: solid 2px #3D2F2C;
-  border-right: solid 2px #3D2F2C;
-  border-left: solid 2px #3D2F2C; 
+  border-top: solid 4px #3D2F2C;
+  border-right: solid 4px #3D2F2C;
+  border-left: solid 4px #3D2F2C; 
   text-align: center; 
 }
 
@@ -107,7 +107,11 @@ list-style-type: none;
   margin-bottom: 10px;
 }
 
-.corner-left {
+.about p , .content-div p, .client p, .client li{
+  text-align: left;
+}
+
+/*.corner-left {
   width: 0px;
   height: 0px;
   position: absolute;
@@ -129,7 +133,7 @@ list-style-type: none;
   border-bottom: 0px solid transparent;
   border-left: 10px solid #3D2F2C;
   z-index: -1;
-}
+}*/
 
 footer{
   background-color: #587D2E;
@@ -236,21 +240,27 @@ img.show{
   border-bottom-right-radius: 3px;
 }
 
-@media (max-width: 280px){
-  .title {
-    font-size: x-small;
+@media (min-width: 1065px){
+  .about--pic {
+      width: 75%;
   }
-}
-
-@media (min-width: 335px){
-  .title {
-    font-size: small;
+  
+  .border {
+      width: 60%;
+  }
+  
+  .couch {
+      width: 75%;
   }
 }
 
 @media (min-width: 825px){
   .border {
-      width: 85%;
+      width: 70%;
+  }
+  
+  .nav li {
+    font-size: 20px;
   }
   
   .about--pic {
@@ -266,18 +276,39 @@ img.show{
   .contact {
       text-align: center;
   }
+  
+  .content-div, .about, .client, .contact, .experience, .presentations, .specializations {
+      border: solid 30px #3D2F2C;
+      border-style: double;
+      margin-top: 32px;
+      
+  }
+  
+  footer{
+    margin-top: -13px;
+  }
 }
 
-@media (min-width: 1065px){
-  .about--pic {
-      width: 75%;
+@media (max-width: 465px){
+  .nav li {
+      font-size: 12px;
   }
   
-  .border {
-      width: 60%;
+
+}
+
+@media (max-width: 355px){
+  .title h1{
+    font-size: 25px;
   }
   
-  .couch {
-      width: 75%;
+  .nav li {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 280px){
+  .title h1{
+    font-size: 22px;
   }
 }
