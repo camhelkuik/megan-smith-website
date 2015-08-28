@@ -96,6 +96,7 @@ list-style-type: none;
   margin-top: 25px;
   border: solid 15px #3D2F2C;
   border-style: double;
+  text-align: center;
 }
 
 .about--pic {
@@ -235,8 +236,16 @@ img.show{
   border-bottom-right-radius: 3px;
 }
 
-@media (min-width: 470px){
-  
+@media (max-width: 280px){
+  .title {
+    font-size: x-small;
+  }
+}
+
+@media (min-width: 335px){
+  .title {
+    font-size: small;
+  }
 }
 
 @media (min-width: 825px){
