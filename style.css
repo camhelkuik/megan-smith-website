@@ -6,10 +6,11 @@ html {
 }
 
 body {
-  background-image: url("assets/light-grey-floral-motif.png");
+/*  background-image: url("assets/light-grey-floral-motif.png");*/
   background-color: #521829;
-  border-top: solid 13px #521829;
-  border-bottom: solid 13px #521829;
+  border-top: solid 20px #330C0C;
+  border-bottom: solid 20px #330C0C;
+  border-style: double;
   margin: 0px 0 0px 0;
 }
 
@@ -18,7 +19,7 @@ body {
   height: 0; 
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  border-top: 20px solid #521829;
+  border-top: 20px solid #330C0C;
   position: relative;
   top: 0px;
   margin-left: auto;
@@ -43,9 +44,9 @@ body {
   width: 94%;
   margin-left: auto;
   margin-right: auto;
-  border-top: solid 4px #3D2F2C;
-  border-right: solid 4px #3D2F2C;
-  border-left: solid 4px #3D2F2C; 
+  border-top: solid 4px #330C0C;
+  border-right: solid 4px #330C0C;
+  border-left: solid 4px #330C0C; 
   text-align: center; 
 }
 
@@ -84,6 +85,28 @@ list-style-type: none;
   margin: auto 5px auto 5px;
 }
 
+.corner-left {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  left: 82px;
+  top: 178px;
+  border-bottom: 10px solid transparent;
+  border-top: 0px solid transparent;
+  border-right: 10px solid #330C0C;
+}
+
+.corner-right {
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  right: 82px;
+  top: 178px;
+  border-bottom: 10px solid transparent;
+  border-top: 0px solid transparent;
+  border-left: 10px solid #330C0C;
+}
+
 .couch {
   margin-top: 10px;
   margin-bottom: -11px;
@@ -94,7 +117,7 @@ list-style-type: none;
   font-family: 'Raleway', sans-serif;
   padding: 1px 10px 10px 10px;
   margin-top: 25px;
-  border: solid 15px #3D2F2C;
+  border: solid 15px #330C0C;
   border-style: double;
   text-align: center;
 }
@@ -113,30 +136,6 @@ list-style-type: none;
   margin-left: auto;
   margin-right: auto;
 }
-
-/*.corner-left {
-  width: 0px;
-  height: 0px;
-  position: absolute;
-  right: 377px;
-  top: -12px;
-  border-top: 10px solid transparent;
-  border-bottom: 0px solid transparent;
-  border-right: 10px solid #3D2F2C;
-  z-index: -1;
-}
-
-.corner-right {
-  width: 0px;
-  height: 0px;
-  position: absolute;
-  right: -3px;
-  top: -12px;
-  border-top: 10px solid transparent;
-  border-bottom: 0px solid transparent;
-  border-left: 10px solid #3D2F2C;
-  z-index: -1;
-}*/
 
 footer{
   background-color: #587D2E;
@@ -162,7 +161,7 @@ footer li {
   top: -10px;
   border-top: 10px solid transparent;
   border-bottom: 0px solid transparent;
-  border-right: 10px solid #3D2F2C;
+  border-right: 10px solid #330C0C;
 }
 
 .footer-right {
@@ -173,7 +172,7 @@ footer li {
   top: -10px;
   border-top: 10px solid transparent;
   border-bottom: 0px solid transparent;
-  border-left: 10px solid #3D2F2C;
+  border-left: 10px solid #330C0C;
 }
 
 .arrow-up {
@@ -181,7 +180,7 @@ footer li {
   height: 0; 
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  border-bottom: 20px solid #521829;
+  border-bottom: 20px solid #330C0C;
   position: relative;
   top: 0px;
   margin-left: auto;
@@ -275,7 +274,7 @@ img.show{
   }
   
   .content-div, .about, .client, .contact, .experience, .presentations, .specializations {
-      border: solid 30px #3D2F2C;
+      border: solid 30px #330C0C;
       border-style: double;
       margin-top: 32px;
       
