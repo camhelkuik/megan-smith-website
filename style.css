@@ -64,6 +64,7 @@ body {
   text-align: center;
   padding-top: 11px;
   padding-bottom: 11px;
+  position: relative;
 }
 
 a{
@@ -89,8 +90,8 @@ list-style-type: none;
   width: 0px;
   height: 0px;
   position: absolute;
-  left: 82px;
-  top: 178px;
+  left: 0px;
+  top: 41px;
   border-bottom: 10px solid transparent;
   border-top: 0px solid transparent;
   border-right: 10px solid #330C0C;
@@ -100,8 +101,8 @@ list-style-type: none;
   width: 0px;
   height: 0px;
   position: absolute;
-  right: 82px;
-  top: 178px;
+  right: 0px;
+  top: 41px;
   border-bottom: 10px solid transparent;
   border-top: 0px solid transparent;
   border-left: 10px solid #330C0C;
@@ -250,6 +251,7 @@ img.show{
   .couch {
       width: 75%;
   }
+  
 }
 
 @media (min-width: 825px){
@@ -274,15 +276,45 @@ img.show{
   }
   
   .content-div, .about, .client, .contact, .experience, .presentations, .specializations {
-      border: solid 30px #330C0C;
+      border: solid 25px #330C0C;
       border-style: double;
-      margin-top: 32px;
+      margin-top: 16px;
+      margin-bottom: -30px;
       
   }
   
   footer{
     margin-top: -13px;
   }
+  
+  .corner-left {
+    top: 46px;
+    border-bottom: 25px solid transparent;
+    border-top: 0px solid transparent;
+    border-right: 25px solid #330C0C;
+  }
+
+  .corner-right {
+    top: 46px;
+    border-bottom: 25px solid transparent;
+    border-top: 0px solid transparent;
+    border-left: 25px solid #330C0C;
+  }
+  
+  .footer-right {
+    top: -25px;
+    border-top: 25px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-left: 25px solid #330C0C;
+  }
+  
+  .footer-left {
+    top: -25px;
+    border-top: 25px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-right: 25px solid #330C0C;
+  }
+
 }
 
 @media (max-width: 465px){
@@ -303,7 +335,7 @@ img.show{
   }
 }
 
-@media (max-width: 280px){
+@media (max-width: 312px){
   .title h1{
     font-size: 22px;
   }
